@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="662.0" styleClass="mainFxmlClass" stylesheets="file:src/style/mediapage.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MediaController">
+   <children>
+      <WebView layoutX="14.0" layoutY="14.0" prefHeight="617.0" prefWidth="633.0" />
+      <Label fx:id="title" layoutX="14.0" layoutY="594.0" prefHeight="30.0" prefWidth="633.0" text="-------------------------------------title------------------------------------" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="star1" fitHeight="65.0" fitWidth="63.0" layoutX="30.0" layoutY="700.0" onMouseClicked="#rate1" onMouseEntered="#full1" onMouseExited="#empty1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/images/star1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="star2" fitHeight="65.0" fitWidth="63.0" layoutX="130.0" layoutY="700.0" onMouseClicked="#rate2" onMouseEntered="#full2" onMouseExited="#empty2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/images/star1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="star3" fitHeight="65.0" fitWidth="63.0" layoutX="230.0" layoutY="700.0" onMouseClicked="#rate3" onMouseEntered="#full3" onMouseExited="#empty3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/images/star1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="star4" fitHeight="65.0" fitWidth="63.0" layoutX="330.0" layoutY="700.0" onMouseClicked="#rate4" onMouseEntered="#full4" onMouseExited="#empty4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/images/star1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="star5" fitHeight="65.0" fitWidth="63.0" layoutX="430.0" layoutY="700.0" onMouseClicked="#rate5" onMouseEntered="#full5" onMouseExited="#empty5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/images/star1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="464.0" layoutY="624.0" prefHeight="30.0" prefWidth="149.0" text="March 27 2019" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="624.0" text="20000 views">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="back" fitHeight="65.0" fitWidth="53.0" layoutX="587.0" layoutY="700.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/images/return.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

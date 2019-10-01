@@ -1,0 +1,46 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#AnchorPane{
+    -fx-background-color: black;
+}
+#searchBox{
+    -fx-text-inner-color: white;
+}
+#search:hover{
+    -fx-cursor: hand;
+}
+#leftBtn:hover{
+    -fx-cursor: hand;
+}
+#leftBtn2:hover{
+    -fx-cursor: hand;
+}
+#rightBtn:hover{
+    -fx-cursor: hand;
+}
+#rightBtn2:hover{
+    -fx-cursor: hand;
+}
+#logout:hover{
+    -fx-cursor: hand;
+}
+#user:hover{
+    -fx-cursor: hand;
+}
+#library:hover{  
+    -fx-text-fill: cyan;
+    -fx-cursor: hand;
+}
+#myList:hover{
+    -fx-text-fill: cyan;
+    -fx-cursor: hand;
+}
+#upload:hover{
+    -fx-text-fill: cyan;
+    -fx-cursor: hand;
+}
+#view1,#view2,#view3,#view4,#view5,#view6,#view7,#view8,#view9,#view10,#view11,#view12{
+    -fx-cursor: hand;
+}

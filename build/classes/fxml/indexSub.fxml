@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+       
+      <AnchorPane  fx:id="subScreen" layoutX="0.0" layoutY="95.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="805.0" prefWidth="1580.0" styleClass="mainFxmlClass"  xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IndexController">      
+          <children>
+            <ImageView fx:id="view1" fitHeight="308.0" fitWidth="500.0" layoutX="25.0" layoutY="75.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view2" fitHeight="308.0" fitWidth="500.0" layoutX="550.0" layoutY="75.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view3" fitHeight="308.0" fitWidth="500.0" layoutX="1075.0" layoutY="75.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view4" fitHeight="308.0" fitWidth="500.0" layoutX="1600.0" layoutY="75.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view5" fitHeight="308.0" fitWidth="500.0" layoutX="2125.0" layoutY="75.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view6" fitHeight="308.0" fitWidth="500.0" layoutX="2650.0" layoutY="75.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view7" fitHeight="308.0" fitWidth="500.0" layoutX="25.0" layoutY="475.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view8" fitHeight="308.0" fitWidth="500.0" layoutX="550.0" layoutY="475.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view9" fitHeight="308.0" fitWidth="500.0" layoutX="1075.0" layoutY="475.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view10" fitHeight="308.0" fitWidth="500.0" layoutX="1600.0" layoutY="475.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view11" fitHeight="308.0" fitWidth="500.0" layoutX="2125.0" layoutY="475.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="view12" fitHeight="308.0" fitWidth="500.0" layoutX="2650.0" layoutY="475.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true" />
+      
+            <ImageView fx:id="leftBtn" fitHeight="130.0" fitWidth="117.0" layoutX="24.0" layoutY="155.0" onMouseClicked="#imageMoveLeft" onMouseEntered="#left_clear" onMouseExited="#left_unclear2" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src/images/left.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rightBtn" fitHeight="130.0" fitWidth="117.0" layoutX="1459.0" layoutY="155.0" onMouseClicked="#imageMoveRight" onMouseEntered="#right_clear" onMouseExited="#right_unclear2" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src/images/right.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rightBtn2" fitHeight="130.0" fitWidth="117.0" layoutX="1459.0" layoutY="552.0" onMouseClicked="#imageMoveRight2" onMouseEntered="#right_clear2" onMouseExited="#right_unclear2" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src/images/right.png" />
+               </image>
+            </ImageView>
+            <ImageView id="leftBtn2" fx:id="leftBtn2" fitHeight="130.0" fitWidth="117.0" layoutX="24.0" layoutY="552.0" onMouseClicked="#imageMoveLeft2" onMouseEntered="#left_clear2" onMouseExited="#left_unclear2" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src/images/left.png" />
+               </image>
+            </ImageView>
+            
+            <Line endX="1392.0" layoutX="210.0" layoutY="383.0" startX="-206.0" stroke="WHITE" strokeWidth="3.0" />
+            
+            <Label layoutX="28.0" layoutY="6.0" prefHeight="40.0" prefWidth="156.0" text="Popular Videos" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            
+            <Label layoutX="33.0" layoutY="400.0" text="New Videos" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            
+         </children>
+      </AnchorPane>
+     
